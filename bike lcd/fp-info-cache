@@ -1,4 +1,4 @@
-27334392530630576
+27382801065899286
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -71805,27 +71805,6 @@ Yellow 5381 Series LED
 0
 2
 2
-Library
-16 terminal block
-
-
-0
-16
-16
-Library
-Untitled
-
-
-0
-0
-0
-Library
-omron nigga
-SIP4 Footprint for SSR made by Sharp
-Solid State relais SSR Sharp
-0
-4
-4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -107925,24 +107904,3 @@ Varistor VF
 0
 2
 2
-imported
-8x2terminal
-
-
-0
-20
-20
-imported
-10x2 with screw
-
-
-0
-24
-23
-imported
-MODULE_ESP32_NODEMCU
-
-
-0
-38
-38
