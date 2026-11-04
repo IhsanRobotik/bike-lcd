@@ -3710,6 +3710,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 44.45) (xy 66.04 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33b7608b-d775-45cc-93c9-286364947812")
+	)
+	(wire
+		(pts
 			(xy 146.05 101.6) (xy 146.05 99.06)
 		)
 		(stroke
@@ -4170,16 +4180,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 44.45) (xy 66.04 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa9bbd25-fb93-4cdf-b7ba-e0be5eee91b4")
-	)
-	(wire
-		(pts
 			(xy 140.97 91.44) (xy 161.29 91.44)
 		)
 		(stroke
@@ -4266,7 +4266,7 @@
 	)
 	(global_label "BOOT0"
 		(shape input)
-		(at 190.5 38.1 0)
+		(at 224.79 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4276,7 +4276,7 @@
 		)
 		(uuid "315ffb61-4122-42d0-bec8-2a25347a2579")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.5933 38.1 0)
+			(at 233.8833 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4376,7 +4376,7 @@
 	)
 	(global_label "BD 4"
 		(shape input)
-		(at 196.85 93.98 0)
+		(at 196.85 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4386,7 +4386,7 @@
 		)
 		(uuid "6f2f7aaf-b67e-45f0-8e25-6730edd9bead")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.5523 93.98 0)
+			(at 204.5523 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4508,7 +4508,7 @@
 	)
 	(global_label "E"
 		(shape input)
-		(at 196.85 91.44 0)
+		(at 196.85 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4518,7 +4518,7 @@
 		)
 		(uuid "9bb87e16-6fb3-44cc-9557-6dab951c593b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.9842 91.44 0)
+			(at 200.9842 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4552,7 +4552,7 @@
 	)
 	(global_label "BOOT1"
 		(shape input)
-		(at 224.79 38.1 0)
+		(at 190.5 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4562,7 +4562,7 @@
 		)
 		(uuid "c93fe67b-f0c7-40d1-98ac-55d6b4eaf55c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.8833 38.1 0)
+			(at 199.5933 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,7 +5227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 207.01 48.26 0)
 			(effects
 				(font
