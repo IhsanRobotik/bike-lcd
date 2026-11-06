@@ -508,6 +508,181 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Crystal_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y1"
+				(at -1.524 -6.35 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "32k"
+				(at 1.016 -6.35 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Crystal:Crystal_SMD_SeikoEpson_MC306-4Pin_8.0x3.2mm_HandSoldering"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Two pin crystal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_1_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -1.27) (xy -1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 -1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_1_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3467,6 +3642,12 @@
 		(uuid db8b7550-bc9d-4c10-931e-057549b7301c)
 	)
 	(junction
+		(at 140.97 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a9d7f9f-ec24-46c4-bfe7-6301eeeacce6")
+	)
+	(junction
 		(at 78.74 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3513,6 +3694,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "690dda6a-cf1d-419d-a3c0-1952643dbf64")
+	)
+	(junction
+		(at 140.97 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8486fd3b-6c69-4b61-beee-469da9911bd0")
 	)
 	(junction
 		(at 130.81 41.91)
@@ -3658,7 +3845,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 109.22) (xy 148.59 109.22)
+			(xy 132.08 109.22) (xy 140.97 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3765,6 +3952,16 @@
 			(type default)
 		)
 		(uuid "3a97cb58-be54-4513-a262-f703d1887e2e")
+	)
+	(wire
+		(pts
+			(xy 140.97 101.6) (xy 146.05 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca15875-f0fd-4f47-9a32-c35f4174478c")
 	)
 	(wire
 		(pts
@@ -3918,7 +4115,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 101.6) (xy 146.05 101.6)
+			(xy 132.08 101.6) (xy 140.97 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4095,6 +4292,16 @@
 			(type default)
 		)
 		(uuid "c5841fca-de7a-4a4b-8b13-e528d75e3a56")
+	)
+	(wire
+		(pts
+			(xy 140.97 109.22) (xy 148.59 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c586f594-0041-4be2-a155-1e9de392f21b")
 	)
 	(wire
 		(pts
@@ -5717,6 +5924,76 @@
 			(project "bike lcd"
 				(path "/93486c4a-9555-4e49-b487-0b352857756b"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Crystal_1")
+		(lib_id "Device:Crystal")
+		(at 140.97 105.41 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2dd6bb2c-8666-4421-959e-250c412dc78e")
+		(property "Reference" "Y1"
+			(at 134.62 103.886 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "32k"
+			(at 134.62 106.426 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_SeikoEpson_MC306-4Pin_8.0x3.2mm_HandSoldering"
+			(at 140.97 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Two pin crystal"
+			(at 140.97 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "fc398e7f-dcaa-42ae-9bcf-d6dbe44cec54")
+		)
+		(pin "1"
+			(uuid "3d429a43-8281-4404-9666-ec91e71450b7")
+		)
+		(instances
+			(project "bike lcd"
+				(path "/93486c4a-9555-4e49-b487-0b352857756b"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -7916,7 +8193,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_SeikoEpson_MC306-4Pin_8.0x3.2mm_HandSoldering"
+		(property "Footprint" "Crystal:Crystal_HC49-U_Vertical"
 			(at 140.97 87.63 0)
 			(effects
 				(font
