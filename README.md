@@ -45,6 +45,22 @@ A personal hardware project to add a dedicated battery and speed readout to a fa
 
 The KiCad schematic and board files are also in the repository.
 
+## PCB milling
+
+The repository also includes CNC toolpaths for milling the board, drilling the holes, and cutting the outline. The image shows a simulation of the front copper toolpath.
+
+<p align="center">
+  <img src="simulated%20toolpath%20pic.jpeg" alt="Simulated CNC toolpath for the PCB front copper" width="900"><br>
+  <sub>Simulated front-copper milling toolpath</sub>
+</p>
+
+- [Front copper toolpath (G-code)](gcode/front.nc)
+- [Drilling toolpath (G-code)](gcode/drill.nc)
+- [Board outline toolpath (G-code)](gcode/outline.nc)
+- [All CNC and toolpath files](gcode/)
+
+These files are machine-specific outputs; check the setup and tool settings before running them on a CNC mill.
+
 ---
 
 <p align="center"><sub>A work-in-progress personal e-bike instrument project.</sub></p>
