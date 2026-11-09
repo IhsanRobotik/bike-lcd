@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101411">
+  <meta name="description" content="A compact battery and speed meter for a common Chinese e-bike controller. Built around an STM32 and a 16×2 character LCD.">
+  <title>Ride Readout — E-bike battery & speed meter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar"><a class="wordmark" href="#top"><span class="mark">R</span> RIDE<span class="muted">/</span>READOUT</a><a class="top-link" href="#build">Explore the build <span aria-hidden="true">↘</span></a></header>
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-copy"><div class="eyebrow"><span class="pulse"></span> A SMALL PROJECT FOR THE DAILY RIDE</div>
+        <h1>Know your ride.<br><em>At a glance.</em></h1>
+        <p class="lede">A home-built battery and speed meter for the familiar Chinese e-bike controller. Straightforward numbers, on a screen you can read while you ride.</p>
+        <a class="button" href="#build">Take a closer look <span aria-hidden="true">↓</span></a>
+        <div class="hero-facts"><div><b>16×2</b><span>character LCD</span></div><div><b>STM32</b><span>F103 controller</span></div><div><b>DIY</b><span>KiCad hardware</span></div></div>
+      </div>
+      <div class="hero-visual"><div class="visual-note"><span>01 / ASSEMBLY STUDY</span><span>DISPLAY + CONTROL BOARD</span></div><img src="full%20assembly%20pic.png" alt="3D render of the assembled e-bike meter board and display"><div class="visual-caption"><span class="caption-dot"></span> LCD meter · custom PCB · rotary adjustment</div></div>
+      <div class="hero-index">PROJECT FILE <span>№ 001</span></div>
+    </section>
+    <section class="intro-band"><div class="wrap intro-inner"><span class="section-tag">THE IDEA</span><p>Give a basic e-bike setup a dedicated readout for <strong>battery voltage</strong> and <strong>road speed</strong>—built around the parts already familiar to the ride.</p><span class="line-art" aria-hidden="true">↗</span></div></section>
+    <section class="build wrap" id="build">
+      <div class="section-head"><div><span class="section-tag">02 — UNDER THE DISPLAY</span><h2>Made to be <em>understood.</em></h2></div><p>A compact controller board brings the display, signal inputs and controls together in one purpose-built layout.</p></div>
+      <div class="feature-grid">
+        <article class="feature-card board-card"><div class="card-top"><span>01 / THE BOARD</span><span class="crosshair">＋</span></div><img src="Board%203d%20Pic.png" alt="3D view of the custom printed circuit board"><div class="card-bottom"><div><h3>A board of its own</h3><p>Designed in KiCad around an STM32F103C6, with power regulation and a programming header.</p></div><span class="card-arrow">↗</span></div></article>
+        <article class="feature-card detail-card"><div class="card-top"><span>02 / THE READOUT</span><span class="crosshair">＋</span></div><div class="lcd-art" aria-label="Illustration of a 16 by 2 character LCD displaying battery voltage and speed"><div class="lcd-frame"><div class="lcd-screen"><div><span>BAT</span><b>48.6</b><small>V</small><i class="battery-icon"><i></i><i></i><i></i><i></i></i></div><div><span>SPEED</span><b>24</b><small>km/h</small><i class="signal">◉</i></div></div><div class="lcd-brand">RIDE / READOUT <span>16×2 LCD</span></div></div><div class="lcd-screw screw-a"></div><div class="lcd-screw screw-b"></div><div class="lcd-screw screw-c"></div><div class="lcd-screw screw-d"></div></div><div class="card-bottom"><div><h3>The essentials, in view</h3><p>A classic character display keeps battery voltage and speed simple and easy to scan.</p></div><span class="card-arrow">↗</span></div></article>
+      </div>
+      <div class="spec-strip"><div><span class="spec-icon">⌁</span><span><b>Battery voltage</b><small>Analog voltage input</small></span></div><div><span class="spec-icon">◉</span><span><b>Speed pickup</b><small>TACHO signal input</small></span></div><div><span class="spec-icon">⌗</span><span><b>STM32F103C6</b><small>Microcontroller</small></span></div><div><span class="spec-icon">▤</span><span><b>WC1602A</b><small>16×2 character LCD</small></span></div></div>
+    </section>
+    <section class="detail-band"><div class="wrap detail-inner"><div><span class="section-tag">03 — THE DESIGN FILES</span><h2>From schematic<br>to <em>something real.</em></h2><p>Designed in KiCad, with the board layout and a 3D assembly view included alongside the circuit.</p></div><a class="render-link" href="bike%20lcd.step" title="Download the 3D STEP assembly"><img src="full%20assembly%20pic.png" alt=""><span>OPEN 3D ASSEMBLY <b>↗</b></span></a><div class="file-links"><a href="schematic.pdf"><span class="file-type">PDF</span><span><b>Schematic</b><small>See how it connects</small></span><i>↗</i></a><a href="board.pdf"><span class="file-type">PDF</span><span><b>PCB layout</b><small>See the board design</small></span><i>↗</i></a><a href="gerber/bike%20lcd-F_Cu.gbr"><span class="file-type">GBR</span><span><b>Gerber copper</b><small>Board fabrication layer</small></span><i>↗</i></a></div></div></section>
+    <section class="outro wrap"><div class="outro-mark">R<span>/</span>R</div><div><span class="section-tag">A WORK IN PROGRESS</span><h2>Built for the ride<br><em>that’s already yours.</em></h2></div><p>A personal hardware project for a common e-bike setup. The files tell the rest of the story.</p></section>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><a class="wordmark" href="#top"><span class="mark">R</span> RIDE<span class="muted">/</span>READOUT</a><span>BATTERY + SPEED METER <i>·</i> OPEN HARDWARE PROJECT</span><a href="#top">BACK TO TOP ↑</a></div></footer>
+</body>
+</html>
