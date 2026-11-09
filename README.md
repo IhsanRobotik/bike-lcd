@@ -62,5 +62,3 @@ The repository also includes CNC toolpaths for milling the board, drilling the h
 These files are machine-specific outputs; check the setup and tool settings before running them on a CNC mill.
 
 ---
-
-<p align="center"><sub>A work-in-progress personal e-bike instrument project.</sub></p>
